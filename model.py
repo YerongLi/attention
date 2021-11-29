@@ -6,7 +6,7 @@ import copy
 import math
 import time
 from torch.autograd import Variable
-from matplotlib.pyplot import plt
+import matplotlib.pyplot as plt
 import seaborn
 seaborn.set_context(context='talk')
 class EncoderDecoder(nn.Module):
