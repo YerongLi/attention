@@ -11,7 +11,7 @@ import seaborn
 seaborn.set_context(context='talk')
 class EncoderDecoder(nn.Module):
     '''
-        encoder: 
+        encoder: The encoder maps a sequence of inputs (x1, x2, ..., xn) to a sequence of vector represention (z1, z2, z3, ..., zn)
         decoder:
 
     '''
